@@ -1,0 +1,105 @@
+/*cabeçalho*/
+
+
+/*Conteudo principal*/
+
+
+/*Header*/
+header img{ height: 70px; width: 70px;}
+
+
+
+/*banner*/
+#section-banners img{height: 500px;}
+/*Produtos vendidos*/
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Float four columns side by side */
+  .column {
+    float: left;
+    width: 33%;
+    padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding in columns */
+  .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+  
+  /* Responsive columns - one column layout (vertical) on small screens */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+}
+#section-vendidos {text-align: center;}
+
+#section-vendidos h2{font-weight: bold; padding: 20px;}
+
+#section-vendidos img{height: 300px; border-radius: 10px;}
+
+#section-vendidos .card{margin: 5px;border: 1px solid #ccc; border-radius: 10px;}
+
+#section-vendidos .preco {color: red; font-size: 18px; font-weight: bold;}
+/*Rodapé*/
+
+footer {position: relative; bottom:0;}
+
+footer p{font-weight: bold;padding: 10px;text-align: center;}
+
+/*Botão Voltar topo*/
+#voltar-topo{
+    position: fixed;
+    bottom: 5px;
+    right: 50px;
+}
+
+/* página de login  */
+
+#section-login{
+    margin-top: 100px;
+}
+
+#section-login h1{
+    text-align: center;
+}
+
+#section-login input{
+    width: 100%;
+}
+
+/* Formulário de cadastro*/
+
+#section-cadastro{
+    padding: 5px;
+    text-align: center;
+    background-color: #fff;
+}
+
+#form-cadastrar{
+    padding: 50px;
+    display: none;
+}
+
